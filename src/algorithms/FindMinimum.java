@@ -1,6 +1,6 @@
 package algorithms;
 
-public class findMin {
+public class FindMinimum {
     public static void main(String[] args) {
 
         int [] arr = new int[] {22,17,3,10,33,43,90,7,};

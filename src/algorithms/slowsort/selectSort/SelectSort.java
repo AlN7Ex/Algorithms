@@ -1,10 +1,10 @@
-package classicalAlgorithm.bubbleSort;
+package algorithms.slowsort.selectSort;
 
-public class BubbleSort {
+public class SelectSort {
     private final long[] arr;
     private int nElems;
 
-    public BubbleSort(int max) {
+    public SelectSort(int max) {
         arr = new long[max];
         nElems = 0;
     }
@@ -40,14 +40,14 @@ public class BubbleSort {
     }
 
     public long[] sort() {
-        boolean isChanged = true;
+        int min, in, out;
 
-        while (isChanged) {
-            isChanged = false;
-            for (int i = 0; i < nElems - 1; ++i) {
-                if (arr[i] > arr[i + 1]) {
-                    swap(i, i + 1);
-                    isChanged = true;
+        for (in = 0; in < nElems - 1; ++in) {
+            min = in;
+
+            for (out = in + 1; out < nElems; ++out) {
+                if (arr[min] > arr[out]) {
+                    swap(min, out);
                 }
             }
         }

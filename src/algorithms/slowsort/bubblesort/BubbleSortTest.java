@@ -1,4 +1,4 @@
-package classicalAlgorithm.bubbleSort;
+package algorithms.slowsort.bubblesort;
 
 import org.junit.Assert;
 import org.junit.Test;

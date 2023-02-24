@@ -1,23 +1,22 @@
-package classicalAlgorithm.bubbleSort;
+package algorithms.slowsort.bubblesort;
 
 public class BubbleSortApp {
     public static void main(String[] args) {
-//        BubbleSort bubbleSort = new BubbleSort(100);
-//        bubbleSort.insert(33);
-//        bubbleSort.insert(2);
-//        bubbleSort.insert(22);
-//        bubbleSort.insert(32);
-//        bubbleSort.insert(44);
-//        bubbleSort.insert(4);
-//        bubbleSort.insert(10);
-//        bubbleSort.insert(50);
-//
-//
-//        bubbleSort.display();
-//        bubbleSort.sort();
-//        bubbleSort.display();
-//        bubbleSort.delete(10);
-//        bubbleSort.display();
+        BubbleSort bubbleSort = new BubbleSort(100);
+        bubbleSort.insert(33);
+        bubbleSort.insert(2);
+        bubbleSort.insert(22);
+        bubbleSort.insert(32);
+        bubbleSort.insert(44);
+        bubbleSort.insert(4);
+        bubbleSort.insert(10);
+        bubbleSort.insert(50);
+
+        bubbleSort.display();
+        bubbleSort.sort();
+        bubbleSort.display();
+        bubbleSort.delete(10);
+        bubbleSort.display();
 
         int[] arr;
         arr = new int[]{3, 2, 0, 0, 5, 6, 0};

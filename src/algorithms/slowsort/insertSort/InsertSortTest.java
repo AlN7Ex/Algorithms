@@ -1,4 +1,4 @@
-package classicalAlgorithm.insertSort;
+package algorithms.slowsort.insertSort;
 
 import org.junit.Assert;
 import org.junit.Test;

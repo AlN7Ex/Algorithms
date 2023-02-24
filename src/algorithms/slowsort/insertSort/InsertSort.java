@@ -1,4 +1,4 @@
-package classicalAlgorithm.insertSort;
+package algorithms.slowsort.insertSort;
 
 public class InsertSort {
     private final long[] arr;
